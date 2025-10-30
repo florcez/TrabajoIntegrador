@@ -1,0 +1,30 @@
+class cancion():
+    def __init__(self, nombre, duracion, portada, posiciontl, colaboracion, bmp, descripsao):
+        self.nombre = nombre
+        self.duracion = duracion
+        self.portada = portada
+        self.posiciontl = posiciontl
+        self.colaboracion = colaboracion
+        self.bmp = bmp
+        self.descripsao = descripsao
+    
+    def getNombre(self):
+        return self.nombre
+    
+    def getDracion(self):
+        return self.duracion
+    
+    def getPortada(self):
+        return self.portada
+    
+    def getPosiciontl(self):
+        return self.posiciontl
+    
+    def getColaboracion(self):
+        return self.colaboracion
+    
+    def getBmp(self):
+        return self.bmp
+    
+    def getDescripsao(self):
+        return self.descripsao
