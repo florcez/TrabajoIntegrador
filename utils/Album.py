@@ -7,12 +7,15 @@
 #Duración
 
 class Album: #Hereda artista de Artista
+    
+    #------------------------------------------ATRIBUTOS
     def __init__(self,tracklist,año,portada,duracion):
         self.tracklist = tracklist
         self.año = año
         self.portada = portada
         self.duracion = duracion
     
+    #------------------------------------------GETS
     def getTracklist(self):
         return self.tracklist
     
@@ -25,7 +28,7 @@ class Album: #Hereda artista de Artista
     def getDuracion(self):
         return self.duracion
     
-    #------------------------------------------
+    #------------------------------------------ Metodos
     
     def añadirCancion(self,cancion):
         self.tracklist.append(cancion)
